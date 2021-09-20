@@ -1,0 +1,35 @@
+
+.pagination-component{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cajita{
+    display: block;
+    cursor: pointer;
+    width: 2.5rem;
+    padding: .3rem 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0 .1rem;
+}
+
+.cajita-actual{
+    display: block;
+    padding: .3rem 0;
+    width: 2.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(39, 146, 218);
+    margin: 0 .1rem;
+}
+
+.cajita-clear{
+    display: block;
+    cursor: pointer;
+    width: 42px;
+    padding: .3rem 0;
+    border-radius: 4px;
+    margin: 0 .1rem;
+}
