@@ -15,7 +15,7 @@ function App() {
       <div style={{marginTop: '5rem', marginBottom: '1rem'}}>
         <span>Pagina elegida: {actualPage}</span>
       </div>
-      <Pagination pageMin={1} pageMax={10} page={actualPage} onClick={onClick}/>
+      <Pagination pageMin={1} pageMax={32} page={actualPage} onClick={onClick}/>
     </div>
   );
 }
