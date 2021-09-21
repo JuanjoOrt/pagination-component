@@ -1,0 +1,49 @@
+
+.pagination-component{
+    display: flex;
+    justify-content: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.cajita{
+    display: block;
+    cursor: pointer;
+    width: 2.5rem;
+    padding: .3rem 0;
+    border-radius: 4px;
+    color: rgba(0, 143, 176, 1);
+    margin: 0 .1rem;
+}
+
+.cajita-actual{
+    display: block;
+    padding: .3rem 0;
+    width: 2.5rem;
+    border: 1px solid ;
+    border-radius: 4px;
+    background-color: rgba(0, 143, 176, 1);
+    color: white;
+    margin: 0 .1rem;
+}
+
+.cajita-ellipsis{
+    display: block;
+    width: 2.5rem;
+    padding: .3rem 0;
+    border-radius: 4px;
+    color: rgba(0, 143, 176, 1);
+    margin: 0 .1rem;
+}
+.cajita-xtrem{
+    display: block;
+    cursor: pointer;
+    padding: .3rem .5rem;
+    border-radius: 4px;
+    margin: 0 .1rem;
+    color: rgba(0, 143, 176, 1);
+}
